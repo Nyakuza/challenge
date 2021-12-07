@@ -10,4 +10,10 @@ public class AppTest {
     public void testTest() {
         assertTrue(true);
     }
+
+    public void shouldCalculateDistance() {
+        App app = new App();
+        //app.CalculateDistance(lat1, lat2, lon1, lon2);
+
+    }
 }
