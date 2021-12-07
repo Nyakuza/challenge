@@ -1,6 +1,7 @@
-package com.nurturecloud;
+package com.ch;
 
 import static org.junit.Assert.assertTrue;
+
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.nurturecloud;
+package com.ch;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -31,7 +31,7 @@ public class App {
         DecimalFormat decimalFormatter = new DecimalFormat("#.##");
          
         //Read JSON file
-        try (FileReader reader = new FileReader("src/main/resources/aus_suburbs.json"))
+        try (FileReader reader = new FileReader("src/main/resources/suburbs.json"))
         {
             Object obj = jsonParser.parse(reader);
             JSONArray suburbList = (JSONArray) obj;
